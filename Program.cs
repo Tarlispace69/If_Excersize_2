@@ -9,19 +9,18 @@ namespace If_Excersize_2
             //declaring variables
             int input1, input2;
 
-            //recieving first input
+            //recieving input
             Console.Write("Please enter a number: ");
             input1 = int.Parse(Console.ReadLine());
-            
-            Console.WriteLine(""); //newline
 
             //recieving second input
             Console.Write("Please enter another number: ");
             input2 = int.Parse(Console.ReadLine());
 
+            //checking if inputs are positive
             if (input1>0 && input2>0)
             {
-                Console.WriteLine($"The product of inputs is: {input1 * input2}");
+                Console.WriteLine($"The product of inputs is: {input1*input2}"); 
             }
         }
     }
